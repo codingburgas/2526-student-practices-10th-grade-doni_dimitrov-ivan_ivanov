@@ -14,15 +14,16 @@
     <ClCompile Include="Static Library.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Main\Admin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Static Library.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="..\..\..\..\Documents\menu.txt">
+    <ClInclude Include="..\Main\Admin.h">
       <Filter>Header Files</Filter>
-    </Text>
+    </ClInclude>
   </ItemGroup>
 </Project>

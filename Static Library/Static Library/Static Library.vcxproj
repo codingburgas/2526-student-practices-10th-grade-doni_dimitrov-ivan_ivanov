@@ -127,13 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\Main\Admin.cpp" />
     <ClCompile Include="Static Library.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\Main\Admin.h" />
     <ClInclude Include="Static Library.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="..\..\..\..\Documents\menu.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
